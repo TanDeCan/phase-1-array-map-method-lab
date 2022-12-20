@@ -11,6 +11,18 @@ const tutorials = [
   'what is JSONP?'
 ];
 
-const titleCased = () => {
-  return tutorials
+function titleCased(){
+  const newTut = [];
+
+  for(const el of tutorials){
+    newTut.push = el
+  }
+
+  console.log (newTut)
+
+  //iterate map of tutorials
+  //split string into array
+  //map over string array
+  //cap each word
+  //return every map function
 }
